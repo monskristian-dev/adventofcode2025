@@ -14,7 +14,6 @@ for i in range(len(range_ID)):
         number = int(range_ID[i][0]) + j
         number_str = str(number)
         window_max = math.ceil(len(number_str) / 2)
-        #print (number, window_max)
         if (len(number_str) == 1):
             pass
         else:
@@ -25,7 +24,6 @@ for i in range(len(range_ID)):
                     chunks = textwrap.wrap(number_str,k)
                     if len(set(chunks)) == 1:
                         invalid_list.append(number)
-                        #print(number, k, guess)
                         break
                     else:
                         pass

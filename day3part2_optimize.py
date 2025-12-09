@@ -18,6 +18,5 @@ with open(input) as f:
         
         battery_list.append(value_current)
 
-#print(battery_list)
 print(sum(battery_list))
 

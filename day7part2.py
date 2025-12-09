@@ -2,8 +2,6 @@ import numpy as np
 
 input_file = "day7.txt"
 
-counter = 0
-
 with open(input_file) as f:
     lines = [line.strip() for line in f.readlines()]
 

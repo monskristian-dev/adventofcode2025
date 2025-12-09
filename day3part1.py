@@ -1,6 +1,5 @@
-import textwrap
-
 input = "day3.txt"
+
 battery_list = []
 
 with open(input) as f:
